@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boost Economic</title>
+    <link rel="stylesheet" href="static/css/mdb.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+    <link rel="stylesheet" href="static/css/styles.css"/>
+</head>
+<body>
+    <header class="sticky-top py-3 header-blur border-bottom">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center animate-float">
+                    <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center text-white fw-bold me-2" style="width: 40px; height: 40px;">BE</div>
+                    <span class="fs-4 fw-bold text-primary">BOOST ECONOMIC</span>
+                </div>
+
+                <nav class="d-none d-md-flex align-items-center">
+                    <ul class="navbar-nav d-flex flex-row gap-4">
+                        <li class="nav-item"><a href="#" class="nav-link fw-medium">Accueil</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link fw-medium">Investir</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link fw-medium">Projets</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link fw-medium">Rendements</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link fw-medium">À propos</a></li>
+                    </ul>
+                </nav>
+
+                <div class="d-flex align-items-center gap-3">
+
+                    <div class="theme-switcher">
+	    				<input type="radio" name="themes" id="ligth-theme">
+	    				<label for="ligth-theme"><span><i class="fa-solid fa-sun-bright d-flex align-items-center"></i>Light</span></label>
+
+	    				<input type="radio" name="themes" id="black-theme">
+                        <label for="black-theme"><span><i class="fa-solid fa-circle-half-stroke d-flex align-items-center"></i>black</span></label>
+	    				<span class="slider"></span>
+
+	    			</div>
+
+                    <button class="btn animate-float btn-primary rounded-5 px-4 d-none d-md-block">Connexion</button>
+                    <button class="btn p-2 rounded-circle d-md-none">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <section class="Hero-Sectio py-5 py-md-6" id="Hero-Sectio" style="background-color: var(--c-bg-primary);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <h1 class="display-4 fw-bold mb-4">
+                        <span class="text-primary">Boostez</span> votre économie avec des micro-investissements
+                    </h1>
+                    <p class="lead mb-4">
+                        Investissez à partir de 10Fr dans des projets porteurs et bénéficiez de rendements attractifs. 
+                        La puissance du crowdfunding au service de votre épargne.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row gap-3 mb-5">
+                        <button class="btn btn-primary rounded-5 px-4 py-3 fw-medium fs-5">Commencer</button>
+                        <button class="btn btn-outline-primary rounded-5 px-4 py-3 fw-medium fs-5">
+                            <i class="fas fa-play me-2"></i> Voir la vidéo
+                        </button>
+                    </div>
+                    <div class="d-flex gap-5">
+                        <div>
+                            <p class="fs-3 fw-bold">15K+</p>
+                            <p>Investisseurs</p>
+                        </div>
+                        <div>
+                            <p class="fs-3 fw-bold">120MFr</p>
+                            <p>Levés</p>
+                        </div>
+                        <div>
+                            <p class="fs-3 fw-bold">8.5%</p>
+                            <p>Rendement moyen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 position-relative">
+                    <div class="position-relative" style="max-width: 28rem; margin: 0 auto;">
+                        <div class="position-absolute top-0 start-0 translate-middle w-32 h-32 bg-primary rounded-circle opacity-20 blur-xl"></div>
+                        <div class="position-absolute bottom-0 end-0 translate-middle w-32 h-32 bg-purple rounded-circle opacity-20 blur-xl"></div>
+                        <div class="card shadow-lg border-0 overflow-hidden" style="background-color: var(--c-bg-secondary);">
+                            <div class="card-body p-4">
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <h3 class="fw-bold mb-0">Portefeuille</h3>
+                                    <span class="badge bg-success-subtle text-success">+8.2%</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <div>
+                                        <p class="small">Solde total</p>
+                                        <p class="fs-3 fw-bold">1,245.60Fr</p>
+                                    </div>
+                                    <div class="rounded-circle bg-primary-subtle d-flex align-items-center justify-content-center" style="width: 48px; height: 48px;">
+                                        <i class="fas fa-wallet text-primary fs-5"></i>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="progress bg-light" style="height: 8px;">
+                                        <div class="progress-bar bg-gradient" style="width: 65%"></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between small mt-2" style="color: var(--c-text-secondary);">
+                                        <span>65% investi</span>
+                                        <span>35% disponible</span>
+                                    </div>
+                                </div>
+                                <div class="row g-2 text-center">
+                                    <div class="col-4">
+                                        <div class="p-2 rounded hover-bg cursor-pointer">
+                                            <i class="fas fa-plus text-primary mb-1"></i>
+                                            <p class="small mb-0">Déposer</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="p-2 rounded hover-bg cursor-pointer">
+                                            <i class="fas fa-exchange-alt text-primary mb-1"></i>
+                                            <p class="small mb-0">Transférer</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="p-2 rounded hover-bg cursor-pointer">
+                                            <i class="fas fa-chart-line text-primary mb-1"></i>
+                                            <p class="small mb-0">Analyser</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5" style="background-color: var(--c-bg-secondary);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Comment ça marche ?</h2>
+                <p class="lead mx-auto" style="max-width: 42rem;">
+                    Boost Economic rend l'investissement accessible à tous avec une approche simple et transparente.
+                </p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition" style="background-color: var(--c-bg-primary);">
+                        <div class="card-body p-4 text-center">
+                            <div class="rounded-circle bg-primary-subtle d-inline-flex align-items-center justify-content-center mb-4" style="width: 64px; height: 64px;">
+                                <i class="fas fa-user-plus fs-4 text-primary"></i>
+                            </div>
+                            <h3 class="h4 fw-bold mb-3">Créer un compte</h3>
+                            <p>
+                                Inscrivez-vous en quelques minutes avec une pièce d'identité et un justificatif de domicile.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition">
+                        <div class="card-body p-4 text-center">
+                            <div class="rounded-circle bg-info-subtle d-inline-flex align-items-center justify-content-center mb-4" style="width: 64px; height: 64px;">
+                                <i class="fas fa-euro-sign fs-4 text-info"></i>
+                            </div>
+                            <h3 class="h4 fw-bold mb-3">Choisissez votre investissement</h3>
+                            <p>
+                                Sélectionnez un projet qui correspond à vos valeurs et à votre appétence pour le risque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition" style="background-color: var(--c-bg-primary);">
+                        <div class="card-body p-4 text-center">
+                            <div class="rounded-circle bg-success-subtle d-inline-flex align-items-center justify-content-center mb-4" style="width: 64px; height: 64px;">
+                                <i class="fas fa-chart-pie fs-4 text-success"></i>
+                            </div>
+                            <h3 class="h4 fw-bold mb-3">Suivez vos rendements</h3>
+                            <p>
+                                Visualisez en temps réel la performance de vos investissements et vos gains.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-5" style="background-color: var(--c-bg-primary);">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2 class="display-5 fw-bold mb-0">Projets en financement</h2>
+                <a href="#" class="text-primary fw-medium d-flex align-items-center">
+                    Voir tout <i class="fas fa-chevron-right ms-2"></i>
+                </a>
+            </div>
+            
+            <div class="projet-container row g-4">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Projet énergie solaire" style="height: 200px; object-fit: cover;">
+                            <div class="position-absolute top-0 end-0 bg-white rounded-pill px-3 py-1 small fw-medium shadow-sm m-3">
+                                Énergie verte
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <h3 class="h4 fw-bold mb-0">Ferme solaire Aquitaine</h3>
+                                <span class="badge bg-primary-subtle text-primary">Nouveau</span>
+                            </div>
+                            <p class="mb-4">
+                                Installation de panneaux photovoltaïques sur 5 hectares avec un potentiel de production de 8MW.
+                            </p>
+                            
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between small mb-2">
+                                    <span>Objectif: 450KFr</span>
+                                    <span>82% atteint</span>
+                                </div>
+                                <div class="progress bg-light" style="height: 8px;">
+                                    <div class="progress-bar bg-success" style="width: 82%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="small mb-1">Rendement estimé</p>
+                                    <p class="fw-bold text-success">7.5% - 9%</p>
+                                </div>
+                                <button class="btn btn-primary rounded-5 btn-sm px-3">Investir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Projet immobilier" style="height: 200px; object-fit: cover;">
+                            <div class="position-absolute top-0 end-0 bg-white rounded-pill px-3 py-1 small fw-medium shadow-sm m-3">
+                                Immobilier
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <h3 class="h4 fw-bold mb-0">Résidence étudiante Lyon</h3>
+                                <span class="badge bg-purple-subtle text-purple">Populaire</span>
+                            </div>
+                            <p class="mb-4">
+                                Construction de 50 studios meublés à proximité du campus universitaire de Lyon 2.
+                            </p>
+                            
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between small mb-2">
+                                    <span>Objectif: 1.2MFr</span>
+                                    <span>64% atteint</span>
+                                </div>
+                                <div class="progress bg-light" style="height: 8px;">
+                                    <div class="progress-bar bg-purple" style="width: 64%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="small mb-1">Rendement estimé</p>
+                                    <p class="fw-bold text-purple">6% - 7.5%</p>
+                                </div>
+                                <button class="btn btn-primary rounded-5 btn-sm px-3">Investir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6" style="background-color: var(--c-bg-primary);">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Projet startup" style="height: 200px; object-fit: cover;">
+                            <div class="position-absolute top-0 end-0 bg-white rounded-pill px-3 py-1 small fw-medium shadow-sm m-3">
+                                Tech
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <h3 class="h4 fw-bold mb-0">EcoTech Solutions</h3>
+                                <span class="badge bg-warning-subtle text-warning">Coup de cœur</span>
+                            </div>
+                            <p class="mb-4">
+                                Développement d'une solution IoT pour optimiser la consommation énergétique des bâtiments.
+                            </p>
+                            
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between small mb-2">
+                                    <span>Objectif: 300KFr</span>
+                                    <span>45% atteint</span>
+                                </div>
+                                <div class="progress bg-light" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" style="width: 45%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="small mb-1">Rendement estimé</p>
+                                    <p class="fw-bold text-warning">10% - 12%</p>
+                                </div>
+                                <button class="btn btn-primary rounded-5 btn-sm px-3">Investir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5" style="background-color: var(--c-bg-secondary);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Ils nous font confiance</h2>
+                <p class="lead mx-auto" style="max-width: 42rem;">
+                    Découvrez ce que nos investisseurs disent de leur expérience avec Boost Economic.
+                </p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle me-3" width="48" height="48" alt="Marie D.">
+                                <div>
+                                    <h4 class="fw-bold mb-0">Marie D.</h4>
+                                    <p class="small">Investisseuse depuis 2020</p>
+                                </div>
+                            </div>
+                            <p class="fst-italic mb-4">
+                                "J'ai commencé avec seulement 50Fr et aujourd'hui mon portefeuille vaut plus de 1200Fr. La plateforme est intuitive et les rendements très corrects."
+                            </p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle me-3" width="48" height="48" alt="Pierre L.">
+                                <div>
+                                    <h4 class="fw-bold mb-0">Pierre L.</h4>
+                                    <p class="small">Investisseur depuis 2019</p>
+                                </div>
+                            </div>
+                            <p class="fst-italic mb-4">
+                                "En tant que petit épargnant, j'apprécie particulièrement la diversité des projets proposés. Je peux investir dans ce qui me tient à cœur avec des montants adaptés."
+                            </p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle me-3" width="48" height="48" alt="Sophie T.">
+                                <div>
+                                    <h4 class="fw-bold mb-0">Sophie T.</h4>
+                                    <p class="small">Investisseuse depuis 2021</p>
+                                </div>
+                            </div>
+                            <p class="fst-italic mb-4">
+                                "L'équipe est réactive et les informations sur les projets sont très transparentes. Je recommande Boost Economic à tous ceux qui veulent donner du sens à leur épargne."
+                            </p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 text-white" style="background: var(--primary-gradient) ;">
+        <div class="container">
+            <div class="text-center py-4" style="max-width: 60rem; margin: 0 auto;">
+                <h2 class="display-5 text-white fw-bold mb-4">Prêt à booster votre épargne ?</h2>
+                <p class="fs-5 mb-5 text-light opacity-90">
+                    Rejoignez notre communauté de plus de 15 000 investisseurs et donnez du sens à votre argent.
+                </p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                    <button class="btn btn-light text-primary rounded-5 px-5 py-3 fw-bolder fs-5">
+                        Ouvrir un compte
+                    </button>
+                    <button class="btn btn-outline-light rounded-5 px-5 py-3 fw-bolder fs-5">
+                        En savoir plus
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-5" style="background-color: var(--c-bg-primary);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Questions fréquentes</h2>
+                <p class="lead mx-auto" style="max-width: 42rem;">
+                    Trouvez les réponses aux questions les plus posées sur notre plateforme.
+                </p>
+            </div>
+            
+            <div class="accordion" id="faqAccordion" style="max-width: 56rem; margin: 0 auto;">
+                <div class="accordion-item mb-3 border rounded-3 overflow-hidden">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button bg-light fw-medium fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+                            Quel est le montant minimum pour investir ?
+                        </button>
+                    </h3>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Chez Boost Economic, vous pouvez commencer à investir avec seulement 10Fr. Cette approche permet à chacun de participer, quel que soit son budget.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item mb-3 border rounded-3 overflow-hidden">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed bg-light fw-medium fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Comment sont sélectionnés les projets ?
+                        </button>
+                    </h3>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Notre équipe d'experts analyse rigoureusement chaque projet selon des critères stricts : viabilité économique, compétence des porteurs, potentiel de croissance et impact sociétal. Seuls les projets les plus prometteurs sont retenus.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item mb-3 border rounded-3 overflow-hidden">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed bg-light fw-medium fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Quels sont les risques ?
+                        </button>
+                    </h3>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Comme tout investissement, il existe un risque de perte en capital. Nous recommandons de diversifier vos investissements et de ne pas engager des sommes dont vous pourriez avoir besoin à court terme. Tous nos projets sont accompagnés d'une évaluation des risques.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item mb-3 border rounded-3 overflow-hidden">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed bg-light fw-medium fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            Comment sont versés les rendements ?
+                        </button>
+                    </h3>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Les rendements sont généralement versés trimestriellement ou annuellement selon les projets. Vous pouvez choisir de les recevoir sur votre compte bancaire ou de les réinvestir automatiquement dans de nouveaux projets.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light border-top">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center text-white fw-bold me-2" style="width: 40px; height: 40px;">BE</div>
+                        <span class="fs-4 fw-bold text-primary">BOOST ECONOMIC</span>
+                    </div>
+                    <p class=" mb-4">
+                        La plateforme de micro-investissement qui donne du pouvoir à votre épargne.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="rounded-circle bg-white d-flex align-items-center justify-content-center text-dark" style="width: 40px; height: 40px;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="rounded-circle bg-white d-flex align-items-center justify-content-center text-dark" style="width: 40px; height: 40px;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="rounded-circle bg-white d-flex align-items-center justify-content-center text-dark" style="width: 40px; height: 40px;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="rounded-circle bg-white d-flex align-items-center justify-content-center text-dark" style="width: 40px; height: 40px;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <h4 class="h5 fw-bold mb-4">Navigation</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">Accueil</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">Investir</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">Projets</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">Rendements</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">À propos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <h4 class="h5 fw-bold mb-4">Légal</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">CGU</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">Politique de confidentialité</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">Mentions légales</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">Risques</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <h4 class="h5 fw-bold mb-4">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3 d-flex">
+                            <i class="fas fa-map-marker-alt text-primary mt-1 me-3"></i>
+                            <span class="">12 Rue Charl De Guaul, 75001 Ouagadougou</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-phone-alt text-primary me-3"></i>
+                            <span class="">01 23 45 67 89</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-envelope text-primary me-3"></i>
+                            <span class="">contact@boost-economic.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-top mt-5 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class=" mb-3 mb-md-0">
+                    © 2025 Boost Economic. Tous droits réservés.
+                </p>
+                <div class="d-flex gap-4">
+                    <a href="#" class="">
+                        <i class="fab fa-cc-visa fs-4"></i>
+                    </a>
+                    <a href="#" class="">
+                        <i class="fab fa-cc-mastercard fs-4"></i>
+                    </a>
+                    <a href="#" class="">
+                        <i class="fab fa-cc-paypal fs-4"></i>
+                    </a>
+                    <a href="#" class="">
+                        <i class="fab fa-cc-stripe fs-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="static/js/mdb.umd.min.js"></script>
+    <script src="static/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+</body>
+</html>
